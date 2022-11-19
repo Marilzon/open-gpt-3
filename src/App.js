@@ -6,6 +6,14 @@ import {
 	Feature,
 	Navbar
 } from './components'
+import {
+	Blog,
+	Footer,
+	Features,
+	Header,
+	Possibility
+} from './pages'
+
 import './App.css'
 
 const App = () => {
