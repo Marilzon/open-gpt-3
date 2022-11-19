@@ -1,10 +1,10 @@
 import React from 'react'
-import './Features.css'
+import './styles.css'
 
 const Features = () => {
   return (
 	<div>
-
+		Features
 	</div>
   )
 }
