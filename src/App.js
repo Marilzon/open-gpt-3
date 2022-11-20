@@ -1,25 +1,23 @@
 import React from 'react'
-import {
-	Article,
-	Brand,
-	CTA,
-	Feature,
-	Navbar
-} from './components'
-import {
-	Blog,
-	Footer,
-	Features,
-	Header,
-	Possibility
-} from './pages'
-
+import { Article, Brand, CTA, Feature, Navbar } from './components'
+import { About, Blog, Footer, Features, Header, Possibility } from './pages'
 import './App.css'
 
 const App = () => {
 	return (
-		<div>
-			This App
+		<div className='App'>
+			<div className='gradient__background'>
+				<Navbar />
+				<Header />
+			</div>
+
+			<Brand />
+			<About />
+			<Features />
+			<Possibility />
+			<CTA />
+			<Blog />
+			<Footer />
 		</div>
 	)
 }
