@@ -9,6 +9,11 @@ body {
 	background: var(--color-background);
 }
 
+#App {
+	max-width: 1780px;
+	margin: 0 auto;
+}
+
 a {
 	color: unset;
 	text-decoration: none;
@@ -33,43 +38,33 @@ a {
 	padding: 4rem 6rem;
 }
 
-.scale-up-top {
-	-webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+	transition: .1s ease-in-out;
 }
 
-@-webkit-keyframes scale-up-top {
+ @-webkit-keyframes scale-up-center {
 	0% {
-		-webkit-transform: scale(0.5);
-		transform: scale(0.5);
-		-webkit-transform-origin: 50% 0%;
-		transform-origin: 50% 0%;
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
 	}
-
 	100% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-		-webkit-transform-origin: 50% 0%;
-		transform-origin: 50% 0%;
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
 	}
-}
-
-@keyframes scale-up-top {
+  }
+  @keyframes scale-up-center {
 	0% {
-		-webkit-transform: scale(0.5);
-		transform: scale(0.5);
-		-webkit-transform-origin: 50% 0%;
-		transform-origin: 50% 0%;
+	  -webkit-transform: scale(0.5);
+			  transform: scale(0.5);
 	}
-
 	100% {
-		-webkit-transform: scale(1);
-		transform: scale(1);
-		-webkit-transform-origin: 50% 0%;
-		transform-origin: 50% 0%;
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
 	}
-}
-
+  }
 
 /* A media query. It is used to apply different styles for different media types/devices. */
 @media screen and (max-width: 700px) {

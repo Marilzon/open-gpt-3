@@ -1,9 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import applicationLogo from '../../assets/images/logo.svg'
 import './styles.css'
 
+const Menu = () => (
+	<>
+		<p><a href="#home">Inicio</a></p>
+		<p><a href="#whats-gpt3">O que é GPT-3?</a></p>
+		<p><a href="#open-ai">Open AI</a></p>
+		<p><a href="#features">Recursos</a></p>
+		<p><a href="#blog">Blog</a></p>
+	</>
+)
+
+const SignIn = () => (
+	<>
+		<p>Sign IN</p>
+		<button type="button">Sign UP</button>
+	</>
+)
+
 const Navbar = () => {
+	const [mobileMenu, setMobileMenu] = useState(false);
+
 	return (
 		<nav className='app__navbar'>
 			<div className="app__navbar-container">
@@ -11,24 +30,34 @@ const Navbar = () => {
 					<img src={applicationLogo} alt="gpt-3 svg logo" />
 				</figure>
 
-				<div className="app__navbar-container">
+				<div className="app__navbar-links-container">
 					<div className="app__navbar-links">
-						<p><a href="#home">Inicio</a></p>
-						<p><a href="#whats-gpt3">O que é GPT-3?</a></p>
-						<p><a href="#open-ai">Open AI</a></p>
-						<p><a href="#features">Recursos</a></p>
-						<p><a href="#blog">Blog</a></p>
+						<Menu />
 					</div>
 
 					<div className="app__navbar-sign">
-						<p>Sign IN</p>
-						<button type="button">Sign UP</button>
-					</div>
-
-					<div className="app__navbar-dropdown">
-						MENU
+						<SignIn />
 					</div>
 				</div>
+			</div>
+
+			<div className="app__navbar-mobile">
+				{mobileMenu
+					? <RiCloseLine color='#fff' size={26} onClick={() => setMobileMenu(false)} />
+					: <RiMenu3Line color='#fff' size={26} onClick={() => setMobileMenu(true)} />
+				}
+
+				{mobileMenu && (
+					<div className="app__navbar-mobile-container scale-up-center">
+						<div className="app__navbar-links">
+							<Menu />
+						</div>
+
+						<div className="app__navbar-sign">
+							<SignIn />
+						</div>
+					</div>
+				)}
 			</div>
 
 		</nav>
