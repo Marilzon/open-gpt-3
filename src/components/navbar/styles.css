@@ -1,0 +1,77 @@
+.app__navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 2rem 6rem;
+}
+
+.app__navbar-container {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.app__navbar-logo {
+	margin-right: 2rem;
+	vertical-align: top;
+}
+
+.app__navbar-logo img {
+	width: 62px;
+	height: 16px;
+}
+
+.app__navbar-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.app__navbar-links {
+	display: flex;
+	flex-direction: row;
+}
+
+.app__navbar_sign {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.app__navbar-links p,
+.app__navbar-sign p {
+	color: rgb(255, 255, 255);
+	font-family: var(--font-manrope);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+	margin: 0 1rem;
+	cursor: pointer;
+}
+
+.app__navbar-sign {
+	display: flex;
+	align-items: center;
+}
+
+.app__navbar-sign button {
+	width: 122px;
+	height: 36px;
+
+	background-color: rgb(255, 72, 32);
+	color: rgb(255, 255, 255);
+	font-family: var(--font-manrope);
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+	border-radius: 5px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
