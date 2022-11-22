@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
-import applicationLogo from '../../assets/images/logo.svg'
+import gpt3SVG from '../../assets/images/logo.svg'
 import './styles.css'
 
 const Menu = () => (
@@ -27,7 +27,7 @@ const Navbar = () => {
 		<nav className='app__navbar'>
 			<div className="app__navbar-container">
 				<figure className="app__navbar-logo">
-					<img src={applicationLogo} alt="gpt-3 svg logo" />
+					<img src={gpt3SVG} alt="gpt-3 svg logo" />
 				</figure>
 
 				<div className="app__navbar-links-container">

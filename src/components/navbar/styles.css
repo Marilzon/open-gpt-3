@@ -76,7 +76,7 @@
 	width: 122px;
 	height: 36px;
 
-	background-color: rgb(255, 72, 32);
+	background-color: var(--color-button-primary);
 	color: var(--color-text);
 	font-family: var(--font-manrope);
 	font-weight: 500;
@@ -92,7 +92,7 @@
 }
 
 .app__navbar-sign button:hover {
-	background-color: rgb(255, 32, 32);
+	background-color: var(--color-button-primary-hover);
 }
 
 .app__navbar-mobile {
