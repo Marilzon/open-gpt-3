@@ -21,7 +21,7 @@ const Header = () => {
 
 				<div className="app__header-people">
 					<img src={peoplePNG} alt="people png" />
-					<p>mais de 1 Milhão de visitas nas ultimas 24 horas</p>
+					<p>Mais de 1 Milhão de visitas nas ultimas 24 horas</p>
 				</div>
 			</div>
 
