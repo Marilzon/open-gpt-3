@@ -69,11 +69,11 @@ a {
 /* A media query. It is used to apply different styles for different media types/devices. */
 @media screen and (max-width: 700px) {
 	.section__padding {
-		padding: 4rem;
+		padding: 3rem;
 	}
 
 	.section__margin {
-		padding: 4rem;
+		padding: 3rem;
 	}
 }
 

@@ -6,9 +6,6 @@
 .app__header-content {
 	display: flex;
 	flex-direction: column;
-	flex: 1;
-	justify-content: center;
-	align-items: flex-start;
 }
 
 .app__header-content h1 {
@@ -22,39 +19,32 @@
 .app__header-content p {
 	font-family: var(--font-manrope);
 	font-size: 20px;
-	line-height: 20px;
-
-	margin: 2rem 0 0 0;
+	margin-top: 2rem;
 	color: var(--color-text);
 }
 
 .app__header-form {
 	width: 100%;
 	margin: 2rem 0 1rem;
-
 	display: flex;
-	flex-direction: row;
 }
 
 .app__header-form input {
-	flex: 2;
+	flex: 3;
 	width: 100%;
-	min-height: 50px;
 	padding: 0 1rem;
 
 	font-family: var(--font-manrope);
 	font-size: 20px;
-	line-height: 20px;
 	background-color: var(--color-footer);
 	border: 2px solid var(--color-footer);
+	color: var(--color-text);
 	border-radius: 5px 0 0 5px;
 	outline: none;
-	color: var(--color-text);
 }
 
 .app__header-form button {
-	flex: 0.6;
-	width: 100%;
+	flex: 1;
 	min-height: 50px;
 	padding: 0 1rem;
 
@@ -64,9 +54,7 @@
 	cursor: pointer;
 
 	font-size: 20px;
-	line-height: 20px;
 	border-radius: 0 5px 5px 0;
-	border: 0;
 	outline: none;
 	transition: 0.1s ease-in-out;
 }
@@ -81,7 +69,7 @@
 	flex-direction: column;
 	align-content: center;
 
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 
 .app__header-people img {
@@ -104,28 +92,31 @@
 }
 
 .app__header-figure img {
-	width: 400px;
-	height: 400px;
+	width: 440px;
+	height: 440px;
 }
 
 @keyframes animateFigure {
-	0%   {
+	0% {
 		filter: brightness(1);
 		transform: perspective(1500px) rotateY(15deg);
 	}
-	25%  {
+
+	25% {
 		filter: brightness(1.75);
 		transform: perspective(3000px) rotateY(5deg);
 	}
-	50%  {
+
+	50% {
 		filter: brightness(1.25);
 		transform: perspective(3000px) rotateY(-5deg);
 	}
+
 	100% {
 		filter: brightness(1);
 		transform: perspective(1500px) rotateY(15deg);
 	}
-  }
+}
 
 @media screen and (max-width: 980px) {
 	.app__header {
@@ -157,4 +148,3 @@
 		display: none;
 	}
 }
-
