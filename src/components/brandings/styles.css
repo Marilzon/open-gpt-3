@@ -1,0 +1,5 @@
+.app__brandings-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

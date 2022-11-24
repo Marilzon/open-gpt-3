@@ -52,7 +52,7 @@
 	color: var(--color-text);
 	font-family: var(--font-manrope);
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;
@@ -80,7 +80,7 @@
 	color: var(--color-text);
 	font-family: var(--font-manrope);
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
 

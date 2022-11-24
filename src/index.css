@@ -7,7 +7,7 @@
 	--gradient-bar: linear-gradient(rgba(25, 0, 128, 1) 0%, rgba(0, 0, 0, 1)100%);
 	--gradient-text: linear-gradient(90deg, rgba(196, 191, 255, 1) 0%, rgba(255, 255, 255, 1) 73%);
 
-	--color-background: rgb(4, 12, 24);
+	--color-background: rgba(0, 0, 0, 1);
 	--color-footer: rgb(3, 27, 52);
 	--color-blog: rgb(4, 44, 84);
 	--color-text: rgb(255, 255, 255);

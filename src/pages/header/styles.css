@@ -1,6 +1,6 @@
 .app__header {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
 }
 
 .app__header-content {
@@ -11,21 +11,21 @@
 .app__header-content h1 {
 	font-family: var(--font-roboto);
 	font-weight: 800;
-	font-size: 48px;
+	font-size: 52px;
 	line-height: 48px;
 	letter-spacing: -0.03rem;
 }
 
 .app__header-content p {
 	font-family: var(--font-manrope);
-	font-size: 20px;
+	font-size: 28px;
 	margin-top: 2rem;
 	color: var(--color-text);
 }
 
 .app__header-form {
 	width: 100%;
-	margin: 2rem 0 1rem;
+	margin: 3rem auto;
 	display: flex;
 }
 
@@ -84,7 +84,6 @@
 .app__header-figure {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	animation-name: animateFigure;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;
@@ -122,6 +121,10 @@
 	.app__header {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.app__header-figure img {
+		width: 100%;
 	}
 
 	.app__header-content h1 {
