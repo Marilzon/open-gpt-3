@@ -126,8 +126,8 @@
 
 	.app__header-content h1 {
 		width: 100%;
-		text-align: left;
 		font-size: 200%;
+		line-height: 38px;
 	}
 
 	.app__header-content p {
@@ -136,15 +136,15 @@
 	}
 
 	.app__header-people {
-		pad: 1rem;
-		gap: 8px;
+		display: block;
+		text-align: center;
+		margin: 1rem 0;
 	}
 
 	.app__header-people p {
 		font-size: 120%;
+		text-align: center;
 	}
 
-	.app__header-figure img {
-		display: none;
-	}
+
 }
