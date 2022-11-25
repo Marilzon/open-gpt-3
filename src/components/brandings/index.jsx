@@ -10,24 +10,22 @@ import './styles.css'
 
 const Brandings = () => {
 	return (
-		<section className="section__padding">
-			<div className="app__brandings-container">
-				<figure>
-					<img src={googlePNG} alt="google png" />
-				</figure>
-				<figure>
-					<img src={slackPNG} alt="slack png" />
-				</figure>
-				<figure>
-					<img src={atlassianPNG} alt="atlassian png" />
-				</figure>
-				<figure>
-					<img src={dropboxPNG} alt="dropbox png" />
-				</figure>
-				<figure>
-					<img src={shopifyPNG} alt="shopify png" />
-				</figure>
-			</div>
+		<section className="app__brandings section__padding">
+			<figure>
+				<img className='branding-image' src={googlePNG} alt="google png" />
+			</figure>
+			<figure>
+				<img className='branding-image'  src={slackPNG} alt="slack png" />
+			</figure>
+			<figure>
+				<img className='branding-image'  src={atlassianPNG} alt="atlassian png" />
+			</figure>
+			<figure>
+				<img className='branding-image'  src={dropboxPNG} alt="dropbox png" />
+			</figure>
+			<figure>
+				<img className='branding-image'  src={shopifyPNG} alt="shopify png" />
+			</figure>
 		</section>
 	)
 }

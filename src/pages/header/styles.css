@@ -84,37 +84,11 @@
 .app__header-figure {
 	display: flex;
 	justify-content: center;
-	animation-name: animateFigure;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	transition: 1s ease-in-out;
 }
 
 .app__header-figure img {
 	width: 440px;
 	height: 440px;
-}
-
-@keyframes animateFigure {
-	0% {
-		filter: brightness(1);
-		transform: perspective(1500px) rotateY(15deg);
-	}
-
-	25% {
-		filter: brightness(1.75);
-		transform: perspective(3000px) rotateY(5deg);
-	}
-
-	50% {
-		filter: brightness(1.25);
-		transform: perspective(3000px) rotateY(-5deg);
-	}
-
-	100% {
-		filter: brightness(1);
-		transform: perspective(1500px) rotateY(15deg);
-	}
 }
 
 @media screen and (max-width: 980px) {

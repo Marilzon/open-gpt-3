@@ -1,5 +1,41 @@
-.app__brandings-container {
+.app__brandings {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+.branding-image {
+	animation-name: brightAnimation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transition: 1s ease-in-out;
+}
+
+@keyframes brightAnimation {
+	0% {
+		filter: brightness(1.0);
+	}
+	25% {
+		filter: brightness(1.25);
+	}
+	50% {
+		filter: brightness(1.5);
+	}
+	75% {
+		filter: brightness(1.25);
+	}
+	100% {
+		filter: brightness(1.0);
+	}
+}
+
+
+
+@media screen and (max-width: 520px) {
+	.app__brandings {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+		place-items: center;
+	}
 }
