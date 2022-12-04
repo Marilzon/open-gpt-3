@@ -6,6 +6,7 @@
 }
 
 body {
+	font-family: var(--font-manrope);
 	background: var(--color-background);
 }
 
@@ -24,6 +25,7 @@ a {
 }
 
 .gradient__text {
+	font-family: var(--font-manrope);
 	background: var(--gradient-text);
 	background-clip: text;
 	-webkit-background-clip: text;

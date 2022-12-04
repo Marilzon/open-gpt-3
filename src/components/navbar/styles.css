@@ -49,13 +49,12 @@
 
 .app__navbar-links p,
 .app__navbar-sign p {
-	color: var(--color-text);
-	font-family: var(--font-manrope);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;
+	color: var(--color-text);
 
 	margin: 0 1rem;
 	cursor: pointer;
@@ -78,7 +77,6 @@
 
 	background-color: var(--color-button-primary);
 	color: var(--color-text);
-	font-family: var(--font-manrope);
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
@@ -110,9 +108,15 @@
 	}
 
 	.app__navbar-mobile {
-		width: 100%;
+		width: fit-content;
+
 		display: flex;
 		justify-content: flex-end;
+		position: fixed;
+		border-radius: 4px;
+		outline: 2px solid var(--color-text);
+		right: 1rem;
+		background-color: var(--color-button-primary);
 	}
 
 	.app__navbar-mobile svg {

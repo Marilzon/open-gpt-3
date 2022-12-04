@@ -3,7 +3,6 @@
 	flex-direction: column;
 
 	background-color: var(--color-footer);
-	font-family: var(--font-manrope);
 }
 
 .app__about-heading {
@@ -24,6 +23,14 @@
 
 .app__feature {
 	display: flex;
+}
+
+@media screen and (max-width: 720px) {
+	.app__about-heading {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
 .app__features-container {
