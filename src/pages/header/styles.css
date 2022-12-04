@@ -73,8 +73,9 @@
 }
 
 .app__header-people img {
-	width: 181px;
-	height: 38px;
+	width: 100%;
+	max-width: 181px;
+	height: auto;
 }
 
 .app__header-people p {
@@ -88,13 +89,18 @@
 
 .app__header-figure img {
 	width: 440px;
-	height: 440px;
+	height: auto;
 }
 
 @media screen and (max-width: 980px) {
 	.app__header {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.app__header-form input {
+		flex: 4;
+		width: 100%;
 	}
 
 	.app__header-figure img {

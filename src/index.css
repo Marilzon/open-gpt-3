@@ -5,7 +5,7 @@
 	--font-manrope: 'Manrope', sans-serif;
 
 	--gradient-bar: linear-gradient(rgba(25, 0, 128, 1) 0%, rgba(0, 0, 0, 1)100%);
-	--gradient-text: linear-gradient(90deg, rgba(196, 191, 255, 1) 0%, rgba(255, 255, 255, 1) 73%);
+	--gradient-text: linear-gradient(90deg, rgba(196, 191, 255, 1) 0%, rgb(255, 138, 113)73%);
 
 	--color-background: rgba(0, 0, 0, 1);
 	--color-footer: rgb(3, 27, 52);

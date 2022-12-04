@@ -6,7 +6,7 @@ import './styles.css'
 const Menu = () => (
 	<>
 		<p><a href="#home">Inicio</a></p>
-		<p><a href="#whats-gpt3">O que é GPT-3?</a></p>
+		<p><a href="#about-gpt3">Sobre</a></p>
 		<p><a href="#open-ai">Open AI</a></p>
 		<p><a href="#features">Recursos</a></p>
 		<p><a href="#blog">Blog</a></p>
@@ -27,7 +27,7 @@ const Navbar = () => {
 		<nav className='app__navbar'>
 			<div className="app__navbar-container">
 				<figure className="app__navbar-logo">
-					<img src={gpt3SVG} alt="gpt-3 svg logo" />
+					<img src={gpt3SVG} alt="gpt-3 svg logo"/>
 				</figure>
 
 				<div className="app__navbar-links-container">

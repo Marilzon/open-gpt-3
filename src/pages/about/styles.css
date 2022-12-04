@@ -1,0 +1,33 @@
+.app__about {
+	display: flex;
+	flex-direction: column;
+
+	background-color: var(--color-footer);
+	font-family: var(--font-manrope);
+}
+
+.app__about-heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 2rem 0;
+}
+
+.app__about-heading p {
+	font-weight: 500;
+	line-height: 30px;
+	color: var(--color-subtext);
+	cursor: pointer;
+}
+
+.app__feature {
+	display: flex;
+}
+
+.app__features-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
