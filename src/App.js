@@ -1,6 +1,6 @@
 import React from "react"
-import { Article, Brandings, CTA, Feature, Navbar } from "./components"
-import { About, Blog, Footer, Header, Possibility } from "./pages"
+import { Brandings, Navbar } from "./components"
+import { About, Blog, Footer, Header } from "./pages"
 import "./App.css"
 
 const App = () => {
@@ -12,8 +12,6 @@ const App = () => {
 			</div>
 			<Brandings />
 			<About />
-			<Possibility />
-			<CTA />
 			<Blog />
 			<Footer />
 		</div>
