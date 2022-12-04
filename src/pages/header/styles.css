@@ -12,7 +12,6 @@
 	font-family: var(--font-roboto);
 	font-weight: 800;
 	font-size: 52px;
-	line-height: 48px;
 	letter-spacing: -0.03rem;
 }
 
@@ -41,22 +40,22 @@
 	outline: none;
 }
 
-.app__header-form button {
-	flex: 1;
+.app__header-form a {
+	display: flex;
+	align-items: center;
+
 	min-height: 50px;
 	padding: 0 1rem;
 
 	background-color: var(--color-button-primary);
 	color: var(--color-text);
-	cursor: pointer;
 
 	font-size: 20px;
 	border-radius: 0 5px 5px 0;
-	outline: none;
 	transition: 0.1s ease-in-out;
 }
 
-.app__header-form button:hover {
+.app__header-form a:hover {
 	background-color: var(--color-button-primary-hover);
 }
 
@@ -89,7 +88,7 @@
 	height: auto;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1280px) {
 	.app__header {
 		display: flex;
 		flex-direction: column;
@@ -97,10 +96,6 @@
 
 	.app__header-form input {
 		flex: 4;
-		width: 100%;
-	}
-
-	.app__header-figure img {
 		width: 100%;
 	}
 
@@ -125,6 +120,4 @@
 		font-size: 120%;
 		text-align: center;
 	}
-
-
 }

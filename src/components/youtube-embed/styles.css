@@ -1,0 +1,18 @@
+.app__video-container {
+	width: 100%;
+	min-height: 320px;
+	overflow: hidden;
+}
+
+.app__video-title {
+	font-size: 22px;
+	color: var(--color-text);
+
+	padding: .5rem;
+}
+
+.app__video-iframe {
+	width: 100%;
+	height: 100%;
+}
+
