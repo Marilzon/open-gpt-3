@@ -1,0 +1,31 @@
+.app__footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.app__footer-link {
+	display: flex;
+	align-items: center;
+	height: 36px;
+
+	padding: 0 1rem;
+	border-radius: 6px;
+	background-color: var(--color-button-primary);
+
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+.app__footer-link:hover {
+	background-color: var(--color-button-primary-hover);
+}
+
+@media screen and (max-width: 1024px) {
+	.app__footer {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

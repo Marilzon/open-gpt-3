@@ -1,5 +1,5 @@
 import React from "react"
-import { Brandings, Navbar, YoutubeEmbed } from "./components"
+import { Brandings, Navbar } from "./components"
 import { About, Blog, Footer, Header, OpenAI } from "./pages"
 import "./App.css"
 
@@ -13,7 +13,6 @@ const App = () => {
 			<Brandings />
 			<About />
 			<OpenAI />
-			<Blog />
 			<Footer />
 		</div>
 	)
