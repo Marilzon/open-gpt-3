@@ -13,8 +13,8 @@ const Menu = () => (
 
 const SignIn = () => (
 	<>
-		<p><u>LOGAR</u></p>
-		<button type="button"><u>CADASRE-SE</u></button>
+		<p>LOGAR</p>
+		<button type="button">CADASTRAR</button>
 	</>
 )
 

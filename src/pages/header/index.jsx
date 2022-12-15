@@ -16,7 +16,7 @@ const Header = () => {
 
 				<div className="app__header-form">
 					<input type="email" value="https://beta.openai.com/docs/models/gpt-3" readonly/>
-					<a href="https://beta.openai.com/docs/models/gpt-3" type='button' target="_blank">Acessar</a>
+					<a href="https://beta.openai.com/docs/models/gpt-3" rel="noreferrer" type='button' target="_blank">Acessar</a>
 				</div>
 
 				<div className="app__header-people">

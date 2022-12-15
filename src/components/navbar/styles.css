@@ -72,8 +72,9 @@
 }
 
 .app__navbar-sign button {
-	width: 122px;
+	width: fit-content;
 	height: 36px;
+	padding: 0 .25rem;
 
 	background-color: var(--color-button-primary);
 	color: var(--color-text);

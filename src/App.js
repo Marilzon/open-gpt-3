@@ -1,6 +1,6 @@
 import React from "react"
 import { Brandings, Navbar } from "./components"
-import { About, Blog, Footer, Header, OpenAI } from "./pages"
+import { About,  Footer, Header, OpenAI } from "./pages"
 import "./App.css"
 
 const App = () => {
